@@ -1,0 +1,16 @@
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Mk_JD2_88_22</display-name>
+
+    <listener>
+        <listener-class>by.it.academy.Mk_JD2_88_22.vote.controllers.web.listeners.VoteContextListener</listener-class>
+    </listener>
+    
+    <context-param>
+        <param-name>pathToFile</param-name>
+        <param-value>D:\opt\apache tomcat\apache-tomcat-8.5.75\conf\vote\votesList.txt</param-value>
+    </context-param>
+
+</web-app>
